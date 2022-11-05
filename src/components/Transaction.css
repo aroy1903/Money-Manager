@@ -1,0 +1,32 @@
+.tranForm {
+  height: 100%;
+  width: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+.tranForm form {
+  margin-top: 100px;
+  border: 1px black solid;
+  border-radius: 70px;
+  height: 400px;
+  width: 400px;
+}
+.tranForm form h3 {
+  padding: 20px;
+}
+.tranForm form label {
+  width: 300px;
+}
+.document {
+  height: 90px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 18px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.trash {
+  cursor: pointer;
+}
